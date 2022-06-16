@@ -111,9 +111,9 @@ pub struct Parser {
 
 impl Parser {
     // init
-    pub fn new(filename: &str) -> Parser {
+    pub fn new(xfilename: &str) -> Parser {
         Parser {
-            all_tokens: Scanner::new(filename).run().all_tokens.clone(),
+            all_tokens: Scanner::new(xfilename).run().all_tokens.clone(),
             token_index: 0,
         }
     }
@@ -589,4 +589,6 @@ pub fn test() {
 
     println!("All tests passed");
 }
+
+
 
