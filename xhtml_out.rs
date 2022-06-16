@@ -1,12 +1,15 @@
 use std::fs;
-use crate::parser_stage3::Parser;
 
-use crate::token_stage2::{Token, TokenType};
+//here we are parsing the .x files into xhtml file
+//following the given EBNF grammar. 
+
+use crate::stage3::Parser;
+
+use crate::stage2_token::{Token, TokenType};
 
 //outputting the xhmtl file 
 
 pub struct XHTML {
-    
     
     parser: Parser,
     
@@ -140,5 +143,3 @@ pub fn test_run() {
 }
 
 pub fn test() {}
-
-
