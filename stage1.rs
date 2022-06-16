@@ -127,9 +127,7 @@ impl CStream {
 		return self.peek_ahead_char(1); 
 	}
 	
-	
 
-	
 	//Return the kth character ahead in the stream 
 	
 	pub fn peek_ahead_char(&self, k: usize)-> char {
@@ -174,9 +172,7 @@ impl CStream {
 		
 	}
 	
-	
-	
-	
+
 	
 	//similarly, locate the kth characters ahead in the input file 
 	
@@ -259,5 +255,4 @@ pub fn CStreamTest(){
 	println!("Stage 1 successfully approached! All CStream tests passed!");
 	
 }
-
 
