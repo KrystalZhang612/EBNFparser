@@ -16,7 +16,7 @@ method to run to test Stage 2:
 go to the src
 open main.rs file and tokens_stage2.rs and scanner_stage2.rs files, along with all given example files from 1-8
 (make sure they are all in the same path or directory)
-start running the main file by removing mod token_stage2, mod scanner_stage2 and scanner_stage2::test() comments 
+start running the main file by removing mod stage2_token, mod scanner_stage2 and scanner_stage2::test() comments 
 it runs properly and should output "Stage 2 successfully approached! All characters in example1.x file tests passed!"
 which indicates that the Stage 2 was approached successfully. 
 
