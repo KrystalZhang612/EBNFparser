@@ -1,8 +1,11 @@
+//use the custom_error crate to customize our error message. 
+
 extern crate custom_error;
 use custom_error::custom_error;
 
-use crate::scanner_stage2::Scanner;
-use crate::token_stage2::{Token, TokenType};
+
+use crate::stage2_scanner::Scanner;
+use crate::stage2_token::{Token, TokenType};
 
 custom_error! {SyntaxError{line_num:i32, char_pos:i32, ebnf: String} ="Error at Line {line_num} Character {char_pos}. The syntax should be: {ebnf}."}
 
