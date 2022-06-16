@@ -210,7 +210,7 @@ impl CStream {
 
 pub fn CStreamTest(){
 	
-	let mut t = CStream::new("TestingTextFile.txt"); 
+	let mut t = CStream::new("testing.txt"); 
 	
 	//debugging using assert_eq!
 	//char pos = 0 always at the current character index 
