@@ -1,9 +1,8 @@
 
-
 //SCANNER 
 //include the CStream crate
-use crate::cstream_stage1::CStream; 
-use crate::token_stage2::{Token, TokenType};
+use crate::stage1::CStream; 
+use crate::stage2_token::{Token, TokenType};
 
 
 //Write a struct called Scanner that will tokenize
@@ -352,15 +351,3 @@ pub fn ScannerTest(){
 }
 
 	
-	
-	
-	
-	
-	
-	
-	
-	
-
-
-
-
