@@ -28,7 +28,6 @@ pub struct CStream {
 	current_line_contents: String, 
 	
 	
-	
 }
 
 //CStream struct implementation 
@@ -207,13 +206,8 @@ impl CStream {
 		self.char_pos += kth_character as i32; 
 
 	}
-	
-	
-	
+		
 }
-
-
-
 
 
 //Stage 1 testing codes 
@@ -264,15 +258,6 @@ pub fn CStreamTest(){
 	
 	println!("Stage 1 successfully approached! All CStream tests passed!");
 	
-
-	
 }
-
-
-
-
-
-
-
 
 
